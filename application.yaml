@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/gboie/argocd-node-app-config.git
     targetRevision: HEAD
-    path: dev
+    path: node-app
   destination: 
     server: https://kubernetes.default.svc
     namespace: node-app
