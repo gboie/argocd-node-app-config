@@ -13,7 +13,7 @@ spec:
         app: node-app
     spec:
       containers:
-      - name: node-app
-        image: gboie/examplenode-dev:28
-        ports:
-        - containerPort: 3000
+        - name: node-app
+          image: gboie/examplenode-dev:3
+          ports:
+            - containerPort: 3000
