@@ -7,9 +7,10 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/gboie/argocd-node-app-config.git
-    targetRevision: HEAD
-    path: node-app
+    chart: chart1-helm
+    repoURL: https://gboie.github.io/chart1/
+    helm:
+      releaseName: chart1
   destination: 
     server: https://kubernetes.default.svc
     namespace: node-app
